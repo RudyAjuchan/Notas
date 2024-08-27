@@ -1,0 +1,30 @@
+Paso 1 Crear proyecto laravel
+composer create-project laravel/laravel nombre_proyecto
+
+Paso 2 Instalar Vue
+Ejecutar en la terminal del proyecto
+npm install vue@latest
+
+Paso 3 Instalar vue router
+npm install vue-router@4
+
+Paso 4 Instalar vuetify
+npm install vuetify@latest
+
+Paso 5 Instalar axios
+npm i axios
+
+Paso 6 configurar vite
+
+Paso 7 configurar app.js
+
+Paso 8 Configurar o copiar router en js
+
+Paso 9 crear app.vue en js/
+
+Paso 10 crear el Blade en /resources/view -> ejemplo index.blade
+	Aquí debemos agregar 3 cosas
+	a) @vite('resources/js/app.js') -> en las etiquetas head
+	b) en el body agregar 
+		<div id="app"></div>
+	c) en el meta agregar <meta name="csrf-token" content="{{ csrf_token() }}">
