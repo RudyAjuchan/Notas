@@ -28,3 +28,14 @@ Paso 10 crear el Blade en /resources/view -> ejemplo index.blade
 	b) en el body agregar 
 		<div id="app"></div>
 	c) en el meta agregar <meta name="csrf-token" content="{{ csrf_token() }}">
+
+Paso 11 se debe configurar web.php en la ruta raíz "/" y cambiar en view la ruta el nombre que se definió en el paso anterior
+
+Paso 12 si tira un error de vite plugin ejecutar
+	npm install @vitejs/plugin-vue --save-dev
+
+Paso 13 para usar fontawesome y mdi icons instalar lo siguiente ya que esta definido en app.js del paso 7
+	npm i @mdi/Font
+	npm i @fortawesome/fontawesome-free
+
+Paso 14 en js/router/index.js configurar las rutas pertinentes

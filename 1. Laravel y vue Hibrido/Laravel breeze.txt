@@ -1,0 +1,18 @@
+1. Instalar laravel breeze composer require laravel/breeze --dev
+
+2. Ejecutar 
+	php artisan breeze:install
+	php artisan migrate
+	npm install
+	npm run dev
+
+3. A este punto hay que arreglar web.php porque se movió
+
+4. Arreglar los forms Blade de el login personalizado con resources/views/auth/login
+
+5. Traucir con laravel Lang
+	composer require --dev laravel-lang/common
+	php artisan lang:add es
+	php artisan lang:update
+
+6. Cambiar en .env "en" por "es"
